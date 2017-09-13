@@ -27,9 +27,21 @@
                                                 <action selector="camTapped:" destination="BYZ-38-t0r" id="TR4-hV-USP"/>
                                             </connections>
                                         </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Hi!" id="TyG-jj-w7g"/>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ciB-GG-aGJ">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem systemItem="undo" id="3dd-i3-Zw5"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="2Vi-gz-gXA"/>
+                                    <barButtonItem title="Item" id="Icm-MH-oSC"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="29e-r9-zB9"/>
+                                    <barButtonItem title="Item" id="P44-eR-a23"/>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
